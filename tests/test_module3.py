@@ -445,7 +445,7 @@ def test_site_collect_files_event_module3(parse):
 @pytest.mark.test_parsers_md_menu_filter_module3
 def test_parsers_md_menu_filter_module3(parse):
 
-    # from ssg import hook
+    # from ssg import hooks
 
     #        filtered = hooks.filter("generate_menu", html, self.base_ext)
     #        self.write(path, dest, filtered)
